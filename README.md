@@ -35,4 +35,10 @@ define('DB_PASSWORD', "a strong password");
 define('DB_HOST', "127.0.0.1");
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
+
+// These will be set automatically on Platform.sh to a different value, but that won't cause issues.
+define('AUTH_KEY', 'SECURE_AUTH_KEY');
+define('LOGGED_IN_KEY', 'LOGGED_IN_SALT');
+define('NONCE_KEY', 'NONCE_SALT');
+define('AUTH_SALT', 'SECURE_AUTH_SALT');
 ```
